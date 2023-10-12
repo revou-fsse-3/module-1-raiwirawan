@@ -18,7 +18,6 @@ I'm a Full-Stack Software Engineer. I'm developing especially web-based software
 | Num | Social Media | Link                            |
 | --- | ------------ | ------------------------------- |
 | 1   | Instagram    | https://instagram.com           |
-| 2   | X            | https://X.com                   |
-| 2   | LinkedIn     | https://linkedin.com/raiwirawan |
-| 2   | GitHub       | https://github.com/raiwirawan   |
 | 2   | Whatsapp     | https://whatsapp.com            |
+| 3   | LinkedIn     | https://linkedin.com/raiwirawan |
+| 4   | GitHub       | https://github.com/raiwirawan   |
