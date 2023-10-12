@@ -4,7 +4,7 @@
 
 ## About me? Let's Go!
 
-![Rai Image](./assets/Matlab_Logo.png)
+![Rai Image](./assets/foto_markdown.JPG)
 
 I'm a Software Engineer. Very well Software Engineer.
 
