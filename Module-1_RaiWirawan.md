@@ -6,7 +6,7 @@
 
 ![Rai Image](./assets/foto_markdown.JPG)
 
-I'm a Software Engineer. Very well Software Engineer.
+I'm a Full-Stack Software Engineer. I'm developing especially web-based software. I love to do that and will be improving myself more and more in the future. Go! Go!
 
 ## My Links
 
