@@ -99,6 +99,7 @@ function arrayPusher(array_name, value_for_push) {
 	array_name.push(value_for_push);
 }
 
+/*
 const new_array = [];
 
 arrayPusher(
@@ -127,4 +128,11 @@ arrayPusher(
 		power: 150,
 		isLoggedIn: true,
 	}
+);
+*/
+
+JavaScriptAlert(
+	"Welcome to my website :",
+	promptMaker("What is your name?"),
+	confirmMaker("Are you sure you want to continue on this website?")
 );
