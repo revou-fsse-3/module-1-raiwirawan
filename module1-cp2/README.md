@@ -9,4 +9,4 @@
 
 # Deploy link
 
-Link :
+Link : https://mod-1-cp-2-raiwirawan.netlify.app/
