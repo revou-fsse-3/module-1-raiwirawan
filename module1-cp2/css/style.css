@@ -2,6 +2,11 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: "Playfair Display", serif;
 }
 
 a {
@@ -70,4 +75,103 @@ li {
 
 .section-padding {
 	padding: 60px 15px 40px 15px;
+}
+
+.footer {
+	padding: 100px 15px 100px 15px;
+	font-size: 40px;
+}
+
+.logo {
+	font-size: 40px;
+	font-weight: 700;
+	font-style: italic;
+}
+
+/* FORM INPUT STYLING */
+
+form {
+	width: 500px;
+	margin: 0 auto;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.input-field,
+.textarea {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+.textarea {
+	height: 100px;
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+label[for="message"] {
+	position: relative;
+	top: -95px;
+}
+
+.input-field[type="radio"] {
+	width: 15px;
+	height: 15px;
+	margin-right: 5px;
+}
+
+.input-field[type="checkbox"] {
+	width: 15px;
+	height: 15px;
+	margin-right: 5px;
+}
+
+button {
+	width: 100%;
+	padding: 10px;
+	margin-top: 10px;
+	background-color: #000;
+	color: #fff;
+	border: 1px solid #000;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.field-group {
+	margin-bottom: 20px;
+}
+
+.field-group label {
+	display: inline-block;
+	width: 200px;
+}
+
+.field-group .input-field,
+.field-group .textarea {
+	display: inline-block;
+	width: 250px;
+}
+
+.field-group .input-field[type="radio"],
+.field-group .input-field[type="checkbox"] {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.form-header {
+	font-size: 30px;
+	margin-bottom: 20px;
 }
