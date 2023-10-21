@@ -74,15 +74,8 @@ function tryArrayObject() {
 	return users_data[2].hobbies;
 }
 
-function JavaScriptAlert(alertInner, promptVar, confirmVar) {
-	if (promptVar != "" && confirmVar != "") {
-		alert(`${alertInner} ${promptVar}!`);
-		confirmVar;
-	} else if (promptVar != "") {
-		alert(`${alertInner} ${promptVar}!`);
-	} else {
-		alert(alertInner);
-	}
+function arrayPusher(array_name, value_for_push) {
+	array_name.push(value_for_push);
 }
 
 function promptMaker(promptText) {
@@ -95,41 +88,10 @@ function confirmMaker(confirmText) {
 	return confirm1;
 }
 
-function arrayPusher(array_name, value_for_push) {
-	array_name.push(value_for_push);
+function JavaScriptAlert(alertText, promptValue, confirmValue) {
+	alert(`${alertText} ${promptValue}!`);
+	confirmValue;
 }
-
-/*
-const new_array = [];
-
-arrayPusher(
-	new_array,
-	{
-		username: "Orland Gryss",
-		title: "Shooter of Albion",
-		role: "Marksman",
-		class: "Archer",
-		power: 112,
-		isLoggedIn: true,
-	},
-	{
-		username: "Brunss Denn",
-		title: "Warrior of Conrad",
-		role: "Fighter",
-		class: "Warrior",
-		power: 134,
-		isLoggedIn: true,
-	},
-	{
-		username: "Charles Dynan",
-		title: "Archmage of Chronos",
-		role: "Magician",
-		class: "Warrior",
-		power: 150,
-		isLoggedIn: true,
-	}
-);
-*/
 
 JavaScriptAlert(
 	"Welcome to my website :",
