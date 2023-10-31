@@ -13,33 +13,34 @@
 		/>
 		<link rel="stylesheet" href="./css/style.css" />
 		<link rel="stylesheet" href="./css/tools.css" />
+		<link rel="stylesheet" href="./css/responsive-nav.css" />
 	</head>
 	<body>
 		<header id="header">
-			<nav class="max-1200px full nav">
-				<div class="nav-left half">
-					<div class="logo-wrapper">
-						<div class="logo">RAIMATHICS.</div>
-					</div>
-				</div>
-				<div class="nav-right half">
-					<div class="section-hyperlinks-wrapper">
-						<ul class="section-hyperlinks full">
-							<li class="hyperlink">
-								<a href="#first-section" class="link">GALLERY</a>
-							</li>
-							<li class="hyperlink">
-								<a href="#second-section" class="link">FORM</a>
-							</li>
-							<li class="hyperlink">
-								<a href="#footer" class="link">THANKS</a>
-							</li>
-						</ul>
-					</div>
+			<nav class="navbar">
+				<a href="#" class="nav-logo logo">RAIMATHICS.</a>
+				<ul class="nav-menu">
+					<li class="nav-item">
+						<a href="#first-section" class="nav-link">GALLERY</a>
+					</li>
+					<li class="nav-item">
+						<a href="#second-section" class="nav-link">FORM</a>
+					</li>
+					<li class="nav-item">
+						<a href="#tools-section" class="nav-link">TOOLS</a>
+					</li>
+					<li class="nav-item">
+						<a href="#footer" class="nav-link">THANKS</a>
+					</li>
+				</ul>
+				<div class="hamburger">
+					<span class="bar"></span>
+					<span class="bar"></span>
+					<span class="bar"></span>
 				</div>
 			</nav>
 		</header>
-		<main id="main" class="max-1200px full">
+		<main id="main" class="full">
 			<section id="first-section" class="first-section full section-padding">
 				<div class="flex-boxes">
 					<div class="img-box">
@@ -197,5 +198,6 @@
 			</div>
 		</footer>
 	</body>
+	<script src="./js/navbar.js"></script>
 	<script src="./js/functions.js"></script>
 </html>
