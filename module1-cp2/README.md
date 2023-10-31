@@ -9,4 +9,4 @@
 
 # Deploy link
 
-Link : https://mod-1-cp-2-raiwirawan.netlify.app/
+Link : https://fancy-puppy-4a3207.netlify.app/

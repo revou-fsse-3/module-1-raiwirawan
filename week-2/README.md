@@ -6,4 +6,4 @@ PENAMBAHAN FITUR RESPONSIVE
 
 # Deploy link
 
-Link : https://mod-1-cp-2-raiwirawan.netlify.app/
+Link : https://warm-tanuki-4d8292.netlify.app/
