@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Basic HTML, CSS, JS</title>
+		<title>RAIMATHICS</title>
 		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -12,13 +12,14 @@
 			rel="stylesheet"
 		/>
 		<link rel="stylesheet" href="./css/style.css" />
+		<link rel="stylesheet" href="./css/tools.css" />
 	</head>
 	<body>
 		<header id="header">
 			<nav class="max-1200px full nav">
 				<div class="nav-left half">
 					<div class="logo-wrapper">
-						<div class="logo">ZOONIMALS.</div>
+						<div class="logo">RAIMATHICS.</div>
 					</div>
 				</div>
 				<div class="nav-right half">
@@ -38,34 +39,34 @@
 				</div>
 			</nav>
 		</header>
-		<main id="main">
+		<main id="main" class="max-1200px full">
 			<section id="first-section" class="first-section full section-padding">
-				<div class="grid-3-3">
-					<div class="grid-box">
+				<div class="flex-boxes">
+					<div class="img-box">
 						<img src="./assets/images/giraffe.png" alt="" class="full" />
 					</div>
-					<div class="grid-box">
+					<div class="img-box">
+						<img src="./assets/images/old_man.png" alt="" class="full" />
+					</div>
+					<div class="img-box">
+						<img src="./assets/images/young_knight.png" alt="" class="full" />
+					</div>
+					<div class="img-box">
+						<img src="./assets/images/young_warrior.png" alt="" class="full" />
+					</div>
+					<div class="img-box">
 						<img src="./assets/images/giraffe.png" alt="" class="full" />
 					</div>
-					<div class="grid-box">
+					<div class="img-box">
 						<img src="./assets/images/giraffe.png" alt="" class="full" />
 					</div>
-					<div class="grid-box">
+					<div class="img-box">
 						<img src="./assets/images/giraffe.png" alt="" class="full" />
 					</div>
-					<div class="grid-box">
+					<div class="img-box">
 						<img src="./assets/images/giraffe.png" alt="" class="full" />
 					</div>
-					<div class="grid-box">
-						<img src="./assets/images/giraffe.png" alt="" class="full" />
-					</div>
-					<div class="grid-box">
-						<img src="./assets/images/giraffe.png" alt="" class="full" />
-					</div>
-					<div class="grid-box">
-						<img src="./assets/images/giraffe.png" alt="" class="full" />
-					</div>
-					<div class="grid-box">
+					<div class="img-box">
 						<img src="./assets/images/giraffe.png" alt="" class="full" />
 					</div>
 				</div>
@@ -141,12 +142,53 @@
 							Yes
 						</div>
 
-						<button type="submit">Submit</button>
+						<button class="button" type="submit">Submit</button>
 					</form>
 				</div>
 			</section>
+			<section id="tools-section" class="full section-padding tools-section">
+				<hr class="tools-hr" />
+				<div class="tools-1" data-name="random-arithmetic-sum">
+					<div class="tools-header">
+						<h2 class="tools-head">Random Arithmetic Sum</h2>
+					</div>
+					<div class="tools-calculators">
+						<div class="calculate-nums">
+							<div class="push-num my-10px">
+								<input
+									type="number"
+									data-label="numbers-for-array"
+									data-operator="sum"
+									class="numbers"
+								/>
+								<button class="button" data-label="calculation-button">
+									Push Number
+								</button>
+							</div>
+							<div
+								class="result-wrapper my-10px display-none"
+								data-label="calculation-result-wrapper"
+							>
+								<div class="result-wrapper-inner">
+									<div class="width-300px">
+										<div class="result" data-label="calculation-result"></div>
+									</div>
+									<button class="button" data-label="calculation-array-nums">
+										Calculate
+									</button>
+								</div>
+								<div
+									class="width-300px sum-result display-none"
+									data-label="sum-array-result"
+								></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<hr class="tools-hr" />
+			</section>
 		</main>
-		<footer id="footer" class="footer full">
+		<footer id="footer" class="footer max-1200px full">
 			<div class="thanks-wrapper">
 				<h2 class="thanks-message text-center">
 					<div class="first-sentence">Thank you for visiting my page!</div>
@@ -155,5 +197,5 @@
 			</div>
 		</footer>
 	</body>
-	<script src="./js/script.js"></script>
+	<script src="./js/functions.js"></script>
 </html>
