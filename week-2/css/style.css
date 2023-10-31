@@ -36,7 +36,9 @@ li {
 	list-style: none;
 }
 
-main {
+header,
+main,
+footer {
 	max-width: 1200px;
 	margin: 0 auto;
 }
